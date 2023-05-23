@@ -1,0 +1,445 @@
+a
+{
+    font-size: 1.4rem;
+    margin-left: 0px;
+    color: black;
+}
+i
+{
+    font-size: 1.7rem;
+}
+
+.btn
+{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.nav_links
+{
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-family: 'Oswald';
+    margin-left: 20px;
+}
+.nav_links_2
+{
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-family: 'Oswald';
+    margin-left: 20px;
+}
+.nav_links:hover
+{
+    color: #808080;
+}
+.nav_links_2:hover
+{
+    color: #808080;
+}
+.logo
+{
+    position: relative;
+    width: 250px;
+    height: 80px;
+    margin-left: 300px;
+    margin-right: 250px;
+}
+.src-box
+{
+    float: right;
+    height: 30px;
+    display: flex;
+    cursor: pointer;
+    padding: 10px 20px;
+    background: #fff;
+    border-radius: 30px;
+    align-items: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+.src-box:hover input
+{
+    width: 200px;
+}
+.src-box input
+{
+    width: 0;
+    outline: none;
+    border: none;
+    font-weight: 400;
+    transition: 0.8s;
+    background: transparent;
+}
+.src-box a .fa-solid
+{
+    color: #000;
+    font-size: 18px;
+}
+.first_div
+{
+    height: 80px;
+    background: #d9d9d9;
+    margin-top: 30px;
+}
+.float-container {
+    border: 3px solid #fff;
+}
+
+.float-child {
+    width: 65%;
+    height: 500px;
+    float: left;
+    padding: 0px;
+}
+.float-child_2
+{
+    width: 35%;
+    float: right;
+    padding: 20px;
+    
+}
+.wrapper .carousel
+{
+  white-space: nowrap;
+  font-size: 0px;
+  overflow: hidden;
+  cursor: pointer;
+  scroll-behavior: smooth;
+}
+.carousel .dragging
+{
+  cursor: grab;
+  scroll-behavior: auto;
+}
+.carousel .dragging img
+{
+  pointer-events: none;
+}
+.wrapper
+{
+  max-width: 100%;
+  height: 400px;
+  background-color: #fff;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.carousel img
+{
+  height: 400px;
+  object-fit: cover;
+  width: 410px;
+  margin-left: 8px;
+  margin-top: 40px;
+}
+.carousel img:first-child
+{
+  margin-left: 0px;
+}
+.wrapper i{
+  top: 50%;
+  height: 46px;
+  width: 46px;
+  text-align: center;
+  line-height: 46px;
+  position: absolute;
+  background: #fff;
+  cursor: pointer;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  transform: translateY(-50%);
+  z-index: 100;
+ 
+}
+.wrapper i:first-child
+{
+  left: 0px;
+  display: none;
+}
+.wrapper i:last-child
+{
+  right: 0px;
+}
+.name
+{
+    font-family: 'oswald';
+    font-size: 25px;
+    padding: 60px 0px 0px 40px;
+}
+.color
+{
+    font-family: 'oswald';
+    padding-left: 40px;
+    color: gray;
+    font-size: 20px;
+}
+#star
+{
+    font-size: 16px;
+    padding-top: 10px;
+}
+#star_1
+{
+    font-size: 16px;
+    padding-left: 40px;
+}
+.price
+{
+    font-size: 25px;
+    font-family: 'oswald';
+    padding: 15px  0px 0 40px;
+}
+hr
+{
+    width: 100%;
+    
+}
+.size_1
+{
+    font-family: 'oswald';
+    font-size: 20px;
+    padding-left: 40px;
+    padding-top: 20px;
+    cursor: pointer;
+}
+.size
+{
+    font-family: 'oswald';
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    cursor: pointer;
+    color: gray;
+}
+.size:hover
+{
+    color: #000;
+}
+.select-menu
+{
+    width: 300px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.select-menu .select-btn
+{
+    display: flex;
+    height: 55px;
+    background: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-between;
+    border: solid 0.5px gray;
+}
+.sBtn-text
+{
+    font-family: 'oswald';
+    margin-left: 5px;
+}
+#size_arrow
+{
+    margin-right: 5px;
+}
+.select-menu.active .select-btn i
+{
+    transform: rotate(-180deg);
+}
+.select-btn i{
+    font-size: 25px;
+    transition: 0.3s;
+}
+.select-menu .options
+{
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+    background: #fff;
+    display: none;
+}
+.select-menu.active .options
+{
+    display: block;
+}
+.options
+{
+    border: solid 0.5px gray;
+}
+.options .option
+{
+    display: flex;
+    height: 55px;
+    cursor: pointer;
+    padding: 0 16px;
+    align-items: center;
+    background: #fff;
+}
+.options .option:hover
+{
+    background: #f2f2f2;
+}
+.options .option-text
+{
+    font-size: 18px;
+    color: #333;
+}
+.buy-btn
+{
+    margin-left: 40px;
+    margin-top: 40px;
+    background: #000;
+    color: #fff;
+    border: none;
+    align-items: center;
+    width: 260px;
+    height: 40px;
+    font-family: 'oswald';
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.wishlist-btn
+{
+    margin-top: 40px;
+    margin-left: 10px;
+    background: #fff;
+    color: #fff;
+    border: none;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+}
+.second-div
+{
+    height: 500px;
+    background:  #fff;
+    width: 100%;
+    margin-top: 700px;
+}
+.hasonló
+{
+    margin-left: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-family: 'oswald';
+    font-size: 30px;
+}
+.float-child-hasonlo
+{
+    width: 25%;
+    float: left;
+}
+.float-child2-hasonlo
+{
+    width: 25%;
+    float: left;
+}
+.float-child3-hasonlo
+{
+    width: 25%;
+    float: right;
+}
+.float-child4-hasonlo
+{
+    width: 25%;
+    float: right;
+}
+.hasonlo-img
+{
+    width: 300px;
+    height: 300px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.hasonlo-img1
+{
+    margin-left: 15px;
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
+}
+.credit
+{
+  margin-left: -50px;
+  text-transform: capitalize;
+  color: #fff;
+  padding: 30px 0;
+}
+#follow_us
+{
+  color: #a6a6a6;
+  font-size: 30px;
+  margin-right: 50px;
+  margin-top: 0px;
+}
+#follow_us_1
+{
+  color: #a6a6a6;
+  font-size: 30px;
+  margin-left: 140px;
+  margin-top: 15px;
+}
+#follow_us:hover
+{
+  color: #fff;
+  cursor: pointer;
+}
+#follow_us_1:hover
+{
+  color:#fff;
+  cursor: pointer;
+}
+.information
+{
+  color: #a6a6a6;
+  font-size: 20px;
+  margin-left: -70px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  text-align: left;
+}
+.information:hover
+{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.shoeshop
+{
+  color: #a6a6a6;
+  font-size: 20px;
+  margin-left: -40px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+}
+.shoeshop:hover
+{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.end
+{
+    width: 100%;
+    height: 300px;
+    background-color: #666666;
+    margin-top:100px;
+}
+.hasolno-shoe
+{
+    margin-left: 15px;
+    font-family: 'oswald';
+    font-size: 20px;
+    color: #000;
+}
+@media (min-width: 1080px)
+{
+    .logo
+    {
+        margin-left: 600px;
+    }
+    .btn
+    {
+        float: right;
+    }
+}
